@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The General Propulsion Organization</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="css/horinaja.css" type="text/css" media="screen" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script src="js/class.horinaja.jquery.js" type='text/javascript'></script>
+<script src="js/jquery.npFullBgImg.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div id="eternal-header">
+	<div id="eternal-header-info-holder">
+		<div id="eternal-header-title"></div>
+   	  <div id="eternal-header-nav">
+        	<ul id="navaids">
+            	<li><a class="home-nav" href="#">Home</a></li>
+                <li><a class="projects-nav" href="#">Projects</a></li>
+                <li><a class="ueber-nav" href="#">About Us</a></li>
+                <li><a class="contribute-nav" href="#">Contribute</a></li>
+                <li><a class="careers-nav" href="#">Careers</a></li>
+            </ul>
+        </div>
+    	<div id="eternal-header-news" class="horinaja">
+        <script> $(document).ready(function(){
+			$('#eternal-header-news').Horinaja({
+			capture:'eternal-header-news',delai:0.5,
+			duree:5,pagination:false});
+			});
+		</script>
+	  <ul id="news-roll">
+				<li><img src="images/publicity/01.jpg"><div id="info-1"><img src="images/ss1.png" width="341" height="48">
+			  <div id="text-info-one">The first project of the General Propulsion Organization, and the first-of-its kind system designed and developed for a cost-effective medium of high-altitude research.</div></div></li>
+				<li><img src="images/publicity/02.jpg"></li>
+                <li><img src="images/publicity/04.gif"></li>
+			</ul>
+        </div>
+    </div>
+</div>
+<div id="about-dyn-content">
+<div id="auto-content">Hello this is something</div>
+<div id="dyn-content-logo-bg"></div>
+<script type="text/javascript">
+	$(document).ready(function() {		
+		$('#dyn-content-logo-bg').npFullBgImg("images/backgrounds/pagebg/02.jpg", {fadeInSpeed: 1000, center: true});			  
+	});
+	</script>
+</div>
+<div id="eternal-footer">
+<div id="eternal-footer-required"></div>
+    <div id="eternal-footer-uteplogo"></div>
+</div>
+
+</body>
+</html>
